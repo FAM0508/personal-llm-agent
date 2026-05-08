@@ -9,7 +9,7 @@ This project explores what happens when you treat an LLM agent as a **long-runni
 - **Physical footprint**: 1 uvicorn process + scheduled cron jobs on a 2GB VPS
 - **Interaction**: Messaging app webhook (single user, single tenant)
 - **Persistence**: Flat files + sqlite-vec + FTS5 (no containers, no ORM)
-- **Runtime cost**: ~$2K/month LLM API budget (DeepSeek primary, Claude for heavy tasks)
+- **Runtime cost**: ~$30/month LLM API budget (DeepSeek primary, Claude for heavy tasks)
 
 ## Architecture
 
